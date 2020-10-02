@@ -75,7 +75,7 @@ public class Execution {
     @DataProvider(name = "logindata")
     public Object[][] gettestdata1() {
         String[][] data = {
-                {"amazontest.jismi@gmail.com", "amazon123amazon", "Amazon1"},
+                {"amazontest.jismi@gmail.com", "password123", "Amazon1"},
         };
         return data;
     }
@@ -91,7 +91,7 @@ public class Execution {
     @DataProvider(name = "newAddressData")
     public Object[][] gettestdata3() {
         String[][] data = {
-                {"amazontest.jismi@gmail.com", "amazon123amazon", "Jismi", "9747453989", "683574", "45B/110"},
+                {"amazontest.jismi@gmail.com", "password123", "Jismi", "9747453989", "683574", "45B/110"},
         };
         return data;
     }
@@ -99,7 +99,7 @@ public class Execution {
     @DataProvider(name = "resetpasswordData")
     public Object[][] gettestdata4() {
         String[][] data = {
-                {"amazontest.jismi@gmail.com", "amazon123amazon", "amazon123amazon123"},
+                {"amazontest.jismi@gmail.com", "password123", "password123amazon"},
         };
         return data;
     }
